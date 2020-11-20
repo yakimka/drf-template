@@ -1,0 +1,33 @@
+# Git style-guide:
+# https://github.com/agis-/git-style-guide
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+#####=== Custom ===#####
+# Directories:
+media/
+.static/
+/static/
+
+# File types:
+*.sqlite3
+*.db
+
+# Configuration file with private data:
+*.env
+.env
+
+# Deploy files for Docker:
+docker-compose.deploy.yml
+
+# Artifacts:
+.gitlab/.svn/
+artifacts/
